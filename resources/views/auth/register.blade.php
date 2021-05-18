@@ -15,8 +15,8 @@
             </div>
 
             <div class="mt-4">
-                <x-jet-label for="email" value="{{ __('Email') }}" />
-                <x-jet-input id="email" class="block mt-1 w-full" type="email" name="email" :value="old('email')" required />
+                <x-jet-label for="nis" value="{{ __('NIS') }}" />
+                <x-jet-input id="nis" class="block mt-1 w-full" type="text" name="nis" :value="old('nis')" required />
             </div>
 
             <div class="mt-4">
